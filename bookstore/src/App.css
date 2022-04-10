@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Code Pro', monospace;
+  background-color: #fff;
+  color: #000;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  min-height: 100vh;
+}
+
+/* form section */
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  height: 100px;
+  margin-top: 25px;
+  margin-left: -150px;
+}
+
+form input {
+  background-color: #fff;
+  color: #000;
+  border: 0.5px solid #000;
+  border-radius: 50px;
+  font-size: 1rem;
+  padding: 1rem;
+  min-width: 50%;
+
+}
+
+::placeholder {
+  font-family: 'Source Code Pro', monospace;
+  color: grey;
+  font-size: 15px;
+  padding: 0.5rem;
+}
+
+.add-new-button {
+  font-family: 'Source Code Pro', monospace;
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 1rem;
+  border: none;
+  border-radius: 50px;
+  color: #000;
+  background-color: #caa3ea;
+  transition: all 0.3s ease;
+}
+
+.add-new-button:hover {
+  color: #fff;
+  background-color: rgb(160, 245, 245);
+}
+
+/* statistics section */
+
+.statistics-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: -150px;
+}
+
+.statistics-list {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.statistics-list-item-all,
+.statistics-list-item-read,
+.statistics-list-item-notread {
+  padding: 1.5rem;
+}
+
+.statistics-list-item-all {
+  color: #000;
+}
+
+.statistics-list-item-read {
+  color: green;
+}
+
+.statistics-list-item-notread {
+  color: #e26666;
+}
+
+.statistics-remove-button {
+  cursor: pointer;
+  color: #fff;
+  background-color: #e26666;
+  border: none;
+  border-radius: 50px;
+  padding: 1.1rem;
+}
+
+.statistics-remove-button:hover {
+  color: #caa3ea;
+  background-color: #000;
+  transition: all 0.3s ease;
+}
+
+.isRead {
+  text-decoration: line-through;
+  color: #008855;
+  opacity: 0.5;
+}
+
+/* book section */
+
+.book-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  padding: 15px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.complete-button,
+.trash-button {
+  cursor: pointer;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  border: none;
+  background-color: #fff;
+}
+
+.trash-button {
+  margin-left: -1%;
+}
+
+/* books list */
+
+.todo-list {
+  list-style-type: none;
+  min-width: 50%;
+}
+
+h1 {
+  margin-left: -150px;
+  margin-top: 150px;
+}
+
+/* .todo-input {
+  color: #000;
+  
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  font-size: 1rem;
+  color: #000;
+  background-color: #fff;
+  transition: all 3s ease;
+}
+
+.todo li {
+  flex: 1;
+  border: #000 1px solid;
+  border-radius: 50px;
+  padding: 0.3rem;
+}
+
+.todo-item {
+  padding: 0rem 0.5rem;
+  color: #000;
+} */
+
+/* book component */
+
+/* .books-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  margin-top: 0.5rem;
+  width: 100%;
+  min-height: 10vh;
+  font-size: 1rem;
+  color: #000;
+  background-color: #fff;
+  transition: all 3s ease;
+}
+
+.books-list {
+  list-style-type: none;
+  min-width: 40%;
+}
+
+.books-list-item {
+  flex: 1;
+  border: #000 1px solid;
+  border-radius: 50px;
+  padding: 1rem;
+}
+
+.todo-item {
+  padding: 0rem 0.5rem;
+  color: #000;
+} */
+
+
+
